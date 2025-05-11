@@ -2,7 +2,7 @@
 
 Une application web interactive pour l'échantillonnage statistique, développée pour le projet de Théorie de Sondage de l'École supérieure de la statistique et l'Analyse de l'information.
 
-![Application Screenshot](https://i.imgur.com/placeholder.png)
+![Live Link](https://projetsondage-ksdczbgxtelxsygxikqv66.streamlit.app/)
 
 ## Fonctionnalités
 
