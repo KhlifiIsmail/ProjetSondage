@@ -112,6 +112,7 @@ st.markdown("""
         text-align: center;
         padding: 1rem;
         font-size: 0.8rem;
+        padding-left: 450px;
     }
     
     /* Button styling */
@@ -230,7 +231,7 @@ def display_header():
 # Application Sidebar
 def display_sidebar():
     """Display the application sidebar with file upload and settings"""
-    st.sidebar.image("https://www.essai.rnu.tn/upload/1651590966.jpg", width=200)
+    st.sidebar.image("Logo_ESSAIT.png", width=200)
     st.sidebar.markdown("### Paramètres de l'Application")
     
     # File upload
@@ -1306,8 +1307,8 @@ def main():
     # Footer
     st.markdown("""
     <div class="app-footer">
-        <div>Développé pour le projet de Théorie de Sondage - 2ème année</div>
-        <div>École supérieure de la statistique et l'Analyse de l'information | 2024-2025</div>
+        <div style="text-align: center; padding-right: 50px;">Développé pour le projet de Théorie de Sondage - 2ème année</div>
+        <div style="text-align: center; padding-right: 50px;">École supérieure de la statistique et l'Analyse de l'information | 2024-2025</div>
     </div>
     """, unsafe_allow_html=True)
 
