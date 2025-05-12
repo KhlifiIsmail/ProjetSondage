@@ -162,7 +162,7 @@ Suggestions pour les développements futurs :
 
 ## Auteurs
 
-[Votre nom et le nom de votre coéquipier]
+Khlifi Ismail & Laadhar Youssef.
 
 ## Remerciements
 
