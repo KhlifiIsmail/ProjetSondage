@@ -246,6 +246,7 @@ def display_sidebar():
     if uploaded_file is not None:
         try:
             sampling_frame = pd.read_excel(uploaded_file)
+            sampling_frame = sampling_frame.drop(columns=['CODE BLOCK', 'CODE SECTOR', 'CODE DELEG', 'CODE GOUV'])
             st.sidebar.success(f"✅ Fichier chargé avec succès! ({sampling_frame.shape[0]} blocs)")
             
             # Display basic info about the frame

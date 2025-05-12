@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Script de lancement pour l'Application de Théorie de Sondage.
 Ce script vérifie l'environnement, installe les dépendances manquantes,
