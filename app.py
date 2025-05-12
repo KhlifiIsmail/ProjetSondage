@@ -225,6 +225,7 @@ def display_header():
     <div class="custom-header">
         <div class="app-title">Application de Théorie de Sondage</div>
         <div class="app-subtitle">École supérieure de la statistique et l'Analyse de l'information | 2024-2025</div>
+        <div class="app-subtitle">Développé par : Laadhar Youssef & Khlifi Ismail</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -1308,7 +1309,6 @@ def main():
     st.markdown("""
     <div class="app-footer">
         <div style="text-align: center; padding-right: 50px;">Développé pour le projet de Théorie de Sondage - 2ème année</div>
-        <div style="text-align: center; padding-right: 50px;">Développé par : Laadhar Youssef & Khlifi Ismail</div>
         <div style="text-align: center; padding-right: 50px;">École supérieure de la statistique et l'Analyse de l'information | 2024-2025</div>
     </div>
     """, unsafe_allow_html=True)
